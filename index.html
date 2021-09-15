@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+ 
+</style>
+
+<body>
+
+    <div id="main" >
+      <center>  <h1 id="title">Bad-Boy</h1></center>
+
+
+        <div id="img-div">
+            <div class="row">
+                <div class="column"></div>
+                <div class="column">
+                <img src="images.jfif" alt="Bad Boy Portrait" id="image">
+                <img src="1.png" alt="Bad Boy Portrait" id="image">
+                <img src="2.jfif" alt="Bad Boy Portrait" id="image">
+                <img src="3.jfif" alt="Bad Boy Portrait" id="image">
+                <img src="4.jfif" alt="Bad Boy Portrait" id="image">
+            </div>
+            <div class="column">
+                <img src="5.jfif" alt="Bad Boy Portrait" id="image">
+                <img src="6.jfif" alt="Bad Boy Portrait" id="image">
+                <img src="7.jfif" alt="Bad Boy Portrait" id="image">
+                <img src="8.jfif" alt="Bad Boy Portrait" id="image">
+            </div>
+            <div class="column"></div>
+
+        </div>
+
+            <center><p id="img-caption"><em>Full-off Attitude boy ever seen</em></p></center>
+
+        </div>
+
+        <div id="tribute-info">
+              <center>
+            <p>Image result for Jimi Hendrix</p>
+            <p>According to The Guardian, Hendrix's</p>
+            <p>last words were: "I need help bad, man.</p>
+            <p>Evidently he was aware he was in distress.</p>
+            <p>however ultimately he could not be saved.</p>
+            <p>However, some feel Hendrix was trying to send a further message.</p>
+            <p>as there was a poem found by his deathbed</p>
+        </center>
+        </div>
+        <center>
+        <a href="https://www.badboy.ca/contact#:~:text=You%20can%20also%20contact%20us,%2D877%2D888%2D0050."
+            target="_blank" id="tribute-link">
+            Learn more about bad boy.
+        </a>
+    </center>
+
+    </div>
+</body>
+
+</html>
